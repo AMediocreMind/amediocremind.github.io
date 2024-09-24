@@ -15,25 +15,14 @@ a {
 footer{
    text-align: center;
 }
-.p-arcticle:first-letter {
-    font-size: 5vh;
+.p-article:first-letter {
+    font-size: 6vh;
 }
 .index-title{
     display: flex;
     flex-direction: column;
     align-items: center;
     margin: 2vh;
-}
-.article-title{
-    text-align: center;
-    font-size: 6vh;
-    font-style: italic;
-    margin-top: 1vh;
-}
-.p-article{
-    padding-left: 5vh;
-    padding-right: 5vh;
-    font-style: italic;
 }
 .container {
     display: flex;
@@ -50,6 +39,9 @@ footer{
 .img-list {
     height: 5vh;
 }
+.img-article{
+    height: 3vh;
+}
 .articles-list {
     font-size: 3vh;
     padding: 1vh;
@@ -65,6 +57,9 @@ footer{
     width: 75%;
     box-sizing: border-box;
     padding: 1vh;
+}
+.copyright{
+    margin-top: 10vh;
 }
 #searchbar {
     padding: 1vh;
