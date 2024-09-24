@@ -28,6 +28,7 @@ footer{
     text-align: center;
     font-size: 6vh;
     font-style: italic;
+    margin-top: 1vh;
 }
 .p-article{
     padding-left: 5vh;
@@ -51,7 +52,8 @@ footer{
 }
 .articles-list {
     font-size: 3vh;
-    padding: 2vh;
+    padding: 1vh;
+    margin: 1vh;
     border-bottom: .25vh solid #ccc;
     animation: fadeIn 0.5s ease-in-out;
 }
@@ -60,12 +62,11 @@ footer{
 }
 .article-container{
     border-top: .25vh solid #ccc;
-    padding: 2vh;
     width: 75%;
     box-sizing: border-box;
+    padding: 1vh;
 }
 #searchbar {
-    margin: 1vh;
     padding: 1vh;
     border-radius: 1vh;
     width: 50%;
@@ -78,8 +79,6 @@ footer{
 }
 #list {
     list-style: none;
-    margin: 1vh;
-    padding: 1vh;
     border-radius: 1vh;
     width: 50%;
     box-sizing: border-box;
