@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 h1{
-    font-size:6vh;
+    font-size:7vh;
     margin-bottom: 1vh;
     text-align: center;
 }
@@ -15,8 +15,14 @@ a {
 footer{
    text-align: center;
 }
-.p-article:first-letter {
-    font-size: 6vh;
+.p-article-first:first-letter {
+    font-size: 7vh;
+}
+.p-article-first{
+    text-indent: 4vh;
+}
+.p-article{
+    text-indent: 4vh;
 }
 .index-title{
     display: flex;
@@ -29,21 +35,23 @@ footer{
     flex-direction: column;
     align-items: center;
     margin: 1vh;
+    white-space: initial;
+    word-wrap: break-word;
 }
 .img-einstein {
-    height: 9vh;
+    height: 10vh;
     padding-top: 1vh;
     padding-left: 1vh;
     padding-right: 1vh;
 }
 .img-list {
-    height: 5vh;
+    height: 6vh;
 }
 .img-article{
-    height: 3vh;
+    height: 4vh;
 }
 .articles-list {
-    font-size: 3vh;
+    font-size: 4vh;
     padding: 1vh;
     margin: 1vh;
     border-bottom: .25vh solid #ccc;
