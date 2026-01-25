@@ -31,6 +31,10 @@ footer{
     text-indent: 4vh;
     font-size: 2.5vh;
 }
+ul{
+    text-indent: 4vh;
+    font-size: 2.5vh;
+}
 .index-title{
     display: flex;
     flex-direction: column;
@@ -107,4 +111,5 @@ footer{
         opacity: 1;
         transform: translateY(0);
     }
+
 }
